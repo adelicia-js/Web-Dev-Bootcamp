@@ -1,2 +1,2 @@
 # Web-Dev-Bootcamp
-Documentation of a Web Development Bootcamp Course
+A documentation of the course 'The Web Developer Bootcamp, 2022' by Colt Steele, provided via Udemy.
