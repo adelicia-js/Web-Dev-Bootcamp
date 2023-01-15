@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 0),
+    rgb(255, 0, 255),
+    rgb(0, 255, 255)
+  );
+  font-family: Montserrat, sans-serif, Verdana;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  margin: -10px auto 0 auto;
+  color: rgba(120, 10, 200, 1);
+}
+
+#gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 15px 5px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background: linear-gradient(
+    350deg,
+    rgba(255, 255, 0, 0.7),
+    rgba(255, 0, 255, 0.7),
+    rgba(0, 255, 255, 0.7)
+  );
+  border-radius: 5px;
+}
+
+#gallery img {
+  width: 250px;
+  height: 150px;
+  max-height: 50%;
+  max-width: 375px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+#imgs-caption {
+  margin: 2px auto;
+  text-align: center;
+  font-style: italic;
+  color: rgba(75, 20, 255, 0.65);
+}
+
+#cats-best {
+  text-align: center;
+  margin: 1em auto;
+  color: rgba(75, 20, 255, 0.8);
+  font-weight: bold;
+}
+
+#reasons {
+  color: rgba(75, 20, 255, 2.8);
+  display: block;
+  margin: -10px auto 0 auto;
+  background: rgba(245, 0, 255, 0.13);
+  width: 180px;
+  height: 70px;
+  text-align: center;
+  padding: 0;
+  border-radius: 10px;
+}
+
+#reasons li {
+  list-style: none;
+}
+
+#reasons li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+#cats-quiz {
+  background: rgba(255, 255, 255, 0.2);
+  width: 350px;
+  height: 160px;
+  padding: 5px 0;
+  margin: 3px auto 0 auto;
+  border-radius: 23px 12px;
+}
+
+#cats-quiz label {
+  color: rgba(75, 20, 255, 0.9);
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+
+#answers {
+  color: rgba(75, 20, 255, 100%);
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+#answers li:not(:last-child) {
+  margin-top: -8px;
+  margin-bottom: 3px;
+}
+
+#submit {
+  font-family: Montserrat, sans-serif, Verdana;
+  color: rgb(215, 204, 253);
+  background: rgba(46, 26, 119, 0.9);
+  border: 1px solid rgb(115, 93, 192);
+  display: block;
+  margin: -4px auto 0 auto;
+  border-radius: 50px;
+  height: 25px;
+}
+
+#submit:hover {
+  color: rgba(46, 26, 119, 0.9);
+  background: rgb(215, 204, 253);
+  border: 1px solid rgb(115, 93, 192);
+}
+
+#submit:action {
+  color: rgba(46, 26, 119, 0.9);
+  background: rgba(46, 26, 119, 0.9);
+  border: 1px solid rgb(115, 93, 192);
+}
