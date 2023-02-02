@@ -16,11 +16,6 @@ body {
     background-size: cover;
 }
 
-/* HEADER */
-header {
-    border: 1px solid black;
-}
-
 /* NAV BAR */
 #navbar {
     display: flex;  
