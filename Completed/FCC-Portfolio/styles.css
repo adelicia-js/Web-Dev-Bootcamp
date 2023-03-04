@@ -42,21 +42,20 @@ body {
 }
 
 .nav-link {
-    /* float: right; */
-    /* display: block; */
     font-size: 1.2rem;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
 }
 
 .nav-link:hover {
-    color: white;
+    color: #9f80cf;
+    text-shadow: 1px 0.1px 5px #201136,0 0 2px #201136, 0 0 2px #ffffff;
 }
 
 /* MAIN */
-/* main > section {
-    border: 1px solid black;    
-} */
+
 /* WELCOME */
 #welcome-section {
     display: flex;
